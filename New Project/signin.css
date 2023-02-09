@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  background-color: #e4e1e1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.root {
+  /* width: 50%;
+      min-height: 70vh;
+      background-image: linear-gradient(90deg, #fff 50%, green 50%),
+          url(./student.jpg);
+          background-size: cover;
+          background-repeat: no-repeat; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:active {
+  columns: black;
+}
+a:hover {
+  color: black;
+}
+#email {
+  width: 100%;
+  height: 30px;
+}
+#password {
+  width: 100%;
+  height: 30px;
+}
+.left {
+  width: 30%;
+  min-height: 70vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 20px; */
+}
+.right {
+  width: 30%;
+  min-height: 70vh;
+  background-image: url(./images/student.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.welcome {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.back {
+  font-size: 14px;
+  color: gray;
+  margin: 10px 0;
+  text-align: center;
+}
+.signin {
+  width: 100%;
+  color: #fff;
+  background-color: black;
+  padding: 10px 0px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.google {
+  color: black;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px solid #ccc8c8;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link{
+  font-size: 12px;
+  margin-left: 5px;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  padding-left: 15px;
+}
+.salute {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 992px) {
+  body {
+    width: 100%;
+    min-height: auto;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    width: 70%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  body{
+    background-color:white;
+  }
+  .root{
+    width: 100%;
+    padding: 0;
+  }
+}
