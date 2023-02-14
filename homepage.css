@@ -1,0 +1,524 @@
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+.menu {
+  margin: 0px 10px;
+  text-decoration: none;
+}
+.decision {
+  display: flex;
+  justify-content: center;
+  padding: 0px 100px;
+}
+button {
+  background-color: #f06058;
+  width: 20%;
+  padding: 15px 0px;
+  border: #f06058;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.get {
+  box-shadow: 0 2px 10px #522b29;
+}
+.get:hover {
+  background-color: #f07e78;
+}
+a:link {
+  color: #354b89;
+}
+a:visited {
+  color: #354b89;
+}
+a:hover {
+  color: #354b89;
+}
+a:active {
+  color: #354b89;
+}
+.part2 {
+  background-color: #354b89;
+  height: 140vh;
+  padding: 100px 100px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.custom {
+  color: #fff;
+  font-size: 24px;
+  padding-top: 40px;
+}
+.computer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-top: 100px;
+  padding-right: 70px;
+}
+.part3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px;
+  align-items: center;
+}
+.gray {
+  background-color: rgb(238, 236, 236);
+  padding: 50px 100px;
+}
+h2 {
+  font-size: 30px;
+}
+.services {
+  text-align: center;
+}
+.job {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.boxes {
+  border: 1px solid white;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0px 10px;
+  padding: 20px 30px;
+  transition: all 0.3s;
+}
+.boxes:hover {
+  box-shadow: 0 4px 20px rgba(141, 137, 137, 0.4);
+  border-color: white;
+}
+.client {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+img {
+  margin: 10px;
+}
+.trust {
+  padding: 50px 0px;
+}
+.testimonial {
+  background-color: #384f8d;
+  color: #fff;
+  padding: 50px 100px;
+}
+.name {
+  display: flex;
+  justify-content: left;
+}
+.speech {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.speaker {
+  border: 1px solid #fff;
+  color: gray;
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 0px 10px;
+  font-size: 14px;
+}
+.logo {
+  width: 10%;
+}
+.signin {
+  width: 100px;
+  background-color: #fff;
+  color: #354b89;
+  border: 1px solid #354b89;
+  padding: 10px;
+}
+.make {
+  color: #354b89;
+  font-size: 40px;
+}
+.business {
+  color: #f06058;
+  font-size: 20px;
+}
+.lorem {
+  color: #324068;
+}
+.first {
+  padding-top: 30px;
+  display: flex;
+}
+.advance {
+  padding-top: 60px;
+  font-size: 24px;
+}
+.partners {
+  font-size: 30px;
+}
+hr {
+  width: 20%;
+  float: left;
+}
+.empower {
+  font-size: 18px;
+  color: gray;
+}
+.lorem2 {
+  color: gray;
+}
+.trusted {
+  text-align: center;
+}
+.clientpic {
+  width: 15%;
+  height: auto;
+}
+.companylogo {
+  width: 15%;
+}
+.mary {
+  color: black;
+  font-size: 16px;
+}
+.jane {
+  color: gray;
+}
+.footer {
+  text-align: center;
+  font-size: 40px;
+}
+.bottombtn {
+  text-align: center;
+}
+.talk {
+  background-color: #fff;
+  color: black;
+  align-self: center;
+}
+.copyright {
+  text-align: center;
+  padding: 50px 0px;
+}
+.line {
+  font-size: 20px;
+}
+.comp {
+  width: 40%;
+}
+.micropic {
+  width: 40%;
+}
+.cloud {
+  width: 30%;
+}
+.dashboard {
+  width: 50%;
+}
+.googlepic {
+  width: 15%;
+}
+.google {
+  width: 40%;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+
+/* MEDIA QUERIES*/
+
+
+@media screen and (max-width: 992px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+  }
+  .decision{
+
+    height: 70vh;;
+  }
+  .image {
+    display: 0;
+  }
+  .comp {
+    display: none;
+  }
+  .get {
+    padding: 10px;
+    align-self: left;
+  }
+  .make {
+    font-size: 35px;
+    margin-top: 2%;
+    align-self: center;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button {
+    width: 40%;
+    padding: 20px 0px;
+    font-size: 20px;
+  }
+  .dashboard {
+    display: none;
+  }
+  .custom {
+    font-size: 28px;
+  }
+  .cloud {
+    display: none;
+  }
+  .computer {
+    padding: 0;
+  }
+  .strategies {
+    font-size: 36px;
+  }
+  .advance {
+    font-size: 28px;
+  }
+  .part2 {
+    height: 140vh;
+    align-items: center;
+  }
+  .partners {
+    text-align: center;
+    font-size: 36px;
+  }
+  hr {
+    float: none;
+    width: 40%;
+  }
+  .part3 {
+    flex-direction: column;
+  }
+  .google {
+    width: 45%;
+  }
+  .micropic {
+    width: 45%;
+  }
+  .form {
+    
+    justify-content: center;
+  }
+  .offer {
+    font-size: 30px;
+  }
+  .empower {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0;
+    width: 100%;
+  }
+  .comp {
+    display: none;
+  }
+  .business {
+    font-size: 20px;
+  }
+  .dashboard {
+    display: none;
+  }
+  .cloud {
+    display: none;
+  }
+  .strategies {
+    font-size: 30px;
+  }
+  .custom li {
+    font-size: 24px;
+  }
+  .advance li {
+    font-size: 24px;
+  }
+  .form {
+    padding: 0;
+  }
+  .part2{
+    height: 50vh;
+  }
+  .part3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .partners {
+    text-align: center;
+  }
+  hr {
+    width: 10%;
+    float: none;
+  }
+  .job {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+  .boxes {
+    width: 70%;
+    padding: 10px 50px;
+  }
+  .companylogo {
+    margin: 0;
+    width: 30%;
+  }
+  #google-logo{
+    display: none;
+  }
+  .speech {
+    display: flex;
+    flex-direction: column;
+  }
+  .speaker {
+    margin: 20px 0px;
+  }
+  .speaker > p {
+    font-size: 20px;
+  }
+  .mary {
+    font-size: 20px;
+  }
+  .talk {
+    font-size: 18px;
+    width: 40%;
+  }
+  .copyright {
+    font-size: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 14px;
+    /* font-size: 24px; */
+  }
+  .menu{
+    display: none;
+  }
+  .signin{
+    font-size: 12px;
+    width: 100%;
+  }
+  .business{
+    padding-right:60px;
+    font-size:12px;
+  }
+  .lorem{
+    font-size: 14px;
+  }
+  .decision{
+    height: 60vh;
+  }
+  .make{
+    font-size: 20px;
+    width: 90%;
+  }
+  .get {
+    width: 60%;
+    font-size: 14px;
+    margin-bottom:20px;
+    /* margin-right: 70px; */
+  }
+  .logo{
+    width: 30%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .strategies{
+    font-size: 18px;
+  }
+  .part2 ul li{
+    font-size: 16px;
+  }
+  .micropic {
+    width: 100%;
+  }
+  .google {
+    width: 100%;
+  }
+  .boxes {
+    width: 70%;
+  }
+  .client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .companylogo {
+    width: 50%;
+  }
+  .clientpic {
+    width: 50%;
+  }
+  .speech {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .talk {
+    width: 100%;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+  .part2{
+    box-sizing: border-box;
+    height: 160vh;
+  }
+
+  .job{
+    display: grid;
+    grid-template-columns:auto;
+    row-gap:30px;
+  }
+  .speaker{
+    width: 100%;
+  }
+  .lorem2{
+font-size: 16px;
+  }
+  .empower{
+    font-size: 16px;
+  }
+  .testimonial{
+    font-size: 16px;
+    padding: 10px;
+  }
+  .speaker p{
+    font-size: 14px;
+  }
+  .footer{
+    font-size: 18px;
+  }
+}
