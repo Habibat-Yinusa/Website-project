@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 80px;
+  padding: 0px 20px;
 }
 .menu {
   margin: 0px 10px;
@@ -17,7 +17,7 @@ header {
 .decision {
   display: flex;
   justify-content: center;
-  padding: 0px 100px;
+  padding: 0px 70px;
 }
 button {
   background-color: #f06058;
@@ -49,7 +49,7 @@ a:active {
 .part2 {
   background-color: #354b89;
   height: 140vh;
-  padding: 100px 100px;
+  padding: 100px 70px;
 }
 .image {
   display: flex;
@@ -70,12 +70,12 @@ a:active {
 .part3 {
   display: flex;
   justify-content: space-between;
-  padding: 100px 100px;
+  padding: 100px 70px;
   align-items: center;
 }
 .gray {
   background-color: rgb(238, 236, 236);
-  padding: 50px 100px;
+  padding: 50px 50px;
 }
 h2 {
   font-size: 30px;
@@ -88,6 +88,7 @@ h2 {
   justify-content: center;
   padding: 50px 0px;
 }
+
 .boxes {
   border: 1px solid white;
   background-color: #fff;
@@ -120,6 +121,9 @@ img {
 .name {
   display: flex;
   justify-content: left;
+}
+.text, .test{
+  text-align: center;
 }
 .speech {
   display: flex;
@@ -242,12 +246,12 @@ hr {
 
 
 @media screen and (max-width: 992px) {
-  .section {
+  /* .section {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 80vh;
-  }
+  } */
   .decision{
 
     height: 70vh;;
@@ -301,7 +305,7 @@ hr {
   }
   .partners {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
   }
   hr {
     float: none;
@@ -433,6 +437,7 @@ hr {
   }
   .lorem{
     font-size: 14px;
+    margin: 10% 0;
   }
   .decision{
     height: 60vh;
@@ -440,6 +445,7 @@ hr {
   .make{
     font-size: 20px;
     width: 90%;
+    margin: 6% 0;
   }
   .get {
     width: 60%;
@@ -494,7 +500,7 @@ hr {
   }
   .part2{
     box-sizing: border-box;
-    height: 160vh;
+    height: 100vh;
   }
 
   .job{
@@ -502,9 +508,7 @@ hr {
     grid-template-columns:auto;
     row-gap:30px;
   }
-  .speaker{
-    width: 100%;
-  }
+  
   .lorem2{
 font-size: 16px;
   }
